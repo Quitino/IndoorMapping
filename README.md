@@ -1,4 +1,5 @@
-#更改运行说明
+## 更改及运行说明
+
 [原地址](https://github.com/ICHIGOI7E/IndoorMapping)此项目原地址，项目为基于ORB-SLAM生成三维密集点云，并使用OctoMap构建室内导航地图。对其进行实现，改项目是基于ORBSLAM2,添加点云地图，同时还提供了一写转换工具，例如二进制字典和八叉树映射模块。
 
 - 运行只能运行fr3_office.sh 其他数据集还没下载。
@@ -6,12 +7,12 @@
 - 如需运行，需要放置在home/fb/目录下面。
 
 
-# all in all
+## all in all
 - 添加点云图模块。
 - 添加二进制字典转换工具。
 - 添加八叉树地图转换工具。
 
-# 以下为原库说明
+## 以下为原库说明
 # IndoorMapping
 This indoor mapping system is based on [ORB-SLAM2](https://github.com/raulmur/ORB_SLAM2). Add point cloud map module, you can visualize your point cloud map during the SLAM process. We also provide some conversion tools, such as binary dictionary and octree map (`IndoorMapping/tools/*`).
 ## Prerequisites
